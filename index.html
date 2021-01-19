@@ -9,30 +9,84 @@
   <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" 
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" 
+    crossorigin="anonymous" />
+  
+  <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" 
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" 
+    crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
 
-  “ I’ve been interested in coding for a while but never taken the jump, until now. 
-  I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
-  excited about the future. ”
+  <section class="sc-carousel">
+    <div class="container">
+      <div class="cards">
+        <div class="card">
+          <div class="detail">
+            <p class="quote">
+              “ I’ve been interested in coding for a while but never taken the jump, until now. 
+              I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
+              excited about the future. ”
+            </p>
+            <p class="info">
+              <span class="name">Tanya Sinclair</span>
+              <span class="role">UX Engineer</span>
+            </p>
+          </div>
+          <div class="image">
+            <img src="./images/image-tanya.jpg" alt="">
 
-  Tanya Sinclair
-  UX Engineer
+            <div class="action"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="detail">
+            <p class="quote">
+              “ If you want to lay the best foundation possible I’d recommend taking this course. 
+              The depth the instructors go into is incredible. I now feel so confident about 
+              starting up as a professional developer. ”
+            </p>
+            <p class="info">
+              <span class="name">John Tarkpor</span>
+              <span class="role">Junior Front-end Developer</span>
+            </p>
+          </div>
+          <div class="image">
+            <img src="./images/image-john.jpg" alt="">
 
-  “ If you want to lay the best foundation possible I’d recommend taking this course. 
-  The depth the instructors go into is incredible. I now feel so confident about 
-  starting up as a professional developer. ”
+            <div class="action"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
 
-  John Tarkpor
-  Junior Front-end Developer
+  <footer>
+    <div class="container">
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        <br>Coded by <a href="https://www.frontendmentor.io/profile/benzrire">benzrire</a>.
+      </div>
+    </div>
+  </footer>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" 
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" 
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" 
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" 
+    crossorigin="anonymous"></script>
+  
+  <script src="./assets/js/main.js"></script>
+
 </body>
 </html>
